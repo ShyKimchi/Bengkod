@@ -120,7 +120,7 @@
             </a>
 
             <a href="{{ route('jadwal-periksa.index') }}"
-                class="{{ $baseLink }} {{ request()->routeIs('polis.*') ? $active : $inactive }}">
+                class="{{ $baseLink }} {{ request()->routeIs('jadwal-periksa.*') ? $active : $inactive }}">
                 <i class="fas fa-hospital w-4 text-center"></i>
                 Jadwal Periksa
             </a>
